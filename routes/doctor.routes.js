@@ -1,7 +1,6 @@
 const { Router } = require('express');
 const Doctor = require('../models/Doctor');
 const { isValidObjectId } = require('mongoose');
-const auth = require('../middleware/auth.middleware')
 const { Types } = require('mongoose');
 const router = Router();
 
