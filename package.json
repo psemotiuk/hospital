@@ -4,7 +4,7 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-        "start": "node app.js",
+        "start": "set NODE_ENV=development && node app.js",
         "server": "nodemon app.js",
         "frontend": "npm run start --prefix ../frontend",
         "dev": "concurrently \"npm run server\" \"npm run frontend\""
