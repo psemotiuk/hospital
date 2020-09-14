@@ -1,0 +1,7 @@
+{
+    "port": 3000,
+    "jwtSecret": "nodejs angular",
+    "mongoURI": "mongodb+srv://admin:1234qwer@cluster0.if0yw.mongodb.net/hospital?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:3000"
+
+}
