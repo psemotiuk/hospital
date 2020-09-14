@@ -36,7 +36,7 @@ async function start() {
             useCreateIndex: true,
             useFindAndModify: false
         });
-        app.listen(3000, () => {
+        app.listen(PORT, () => {
             console.log(`App has been started on PORT: ${PORT}`);
         });
 
